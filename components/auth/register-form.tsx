@@ -47,6 +47,8 @@ export const RegisterForm = () => {
         )
     }
 
+    console.log(" Error Login", error)
+
     return (
         <CardWrapper showSocial headerLabel="Register" backButtonHref="/auth/login/" backButtonLabel="Already have an account?">
             <Form {...form}>
